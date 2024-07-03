@@ -8,6 +8,7 @@ const client = new Client({ intents: [
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  // test
 });
 
 client.on('interactionCreate', async interaction => {
